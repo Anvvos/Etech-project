@@ -1,0 +1,392 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navibar{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    min-height: 8vh;
+  
+}
+
+.navibar img{
+    width:7cm;
+}
+
+
+nav{
+    flex: 1;
+    text-align: right;
+   
+    
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+p{
+    color:whitesmoke;
+}
+
+.content{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.front{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pg{
+    flex-basis: 50%;
+    min-width: 300px;
+    color:whitesmoke ;
+    font-family: 'Poppins', sans-serif;
+}
+.pg img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.pg h1{
+    font-size: 45px;
+    line-height: 50px;
+    margin: 30px 0;
+}
+
+.bot{
+    display: inline-block;
+    background: #260942;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.bot:hover{
+    background: #170329;
+}
+
+
+
+ .front{
+    margin-top: 70px;
+    
+}
+
+.subhed{
+    background-color: #260942;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.fetpg{
+   
+   font-size: 35px;
+    color:whitesmoke ;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.cata{
+    margin: 70px 0;
+
+}
+
+.colm{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.colm-2{
+    width: 25%;
+    float: right;
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.colm-3{
+    width: 25%;
+    margin: 0 auto;
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.colm-4{
+    width: 25%;
+    margin:  auto;
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.colm-5{
+    width: 25%;
+    float: right;
+   
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.colm img{
+    display: block;
+    background-color: #15041f;
+    width: 100%;
+}
+.colm-2 img{
+    display: block;
+    background-color: #15041f;
+    width: 100%;
+}
+.colm-3 img{
+    display: block;
+    background-color: #15041f;
+    width: 100%;
+}
+.colm-4 img{
+    display: block;
+    background-color: #15041f;
+    width: 100%;
+}
+.colm-5 img{
+    display: block;
+    background-color: #15041f;
+    width: 100%;
+}
+
+.contain{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.active, .navibar ul li:hover{
+    background:#260942 ;
+    border-radius: 3px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: whitesmoke;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay:hover > *{
+    transform: translateY(0px);
+}
+
+.overtittle{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: 1.25em;
+    margin-top: 01.25em;
+}
+
+footer{
+    background: #0c0b0d;
+    height: auto;
+    width: 100vw;
+    font-family:'Poppins', sans-serif; 
+    padding-top: 40px;
+    color: whitesmoke;
+}
+
+.footercon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footercon h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footercon p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+
+}
+
+
+.socials a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color:#260942;
+}
+
+.footerbot{
+    background: #0c0b0d;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.footerbot p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footerbot span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+.proddeets.html main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    box-shadow:-2px 0px 33px 0px rgba(0,0,0,0.75)
+}
+
+.cover{
+    grid-area: cover;
+    height: 80vh;
+    background-image: url(Acer\ Nitro\ 5\ AN515-57-53SB.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.conte{
+    grid-area:content;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.nab{
+    margin: 10px 20px;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: gray;
+}
+
+.bod{
+    display: flex;
+    flex-direction: row;
+}
+.page{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    color: gray;
+    position: relative;
+    transform: translateY(38px);
+}
+
+.page span{
+    margin-top: 15px;
+}
+
+.label{
+    width: 80%;
+}
+.label p{
+    font-size: 13px;
+    color: gray;
+    width: 70%;
+    
+}
+
